@@ -1,3 +1,64 @@
+ * {
+  box-sizing: border-box;
+ }
+
+ .columns {
+  float: left;
+  width: 50%;
+  padding: 20px;
+  min-height: 300px;
+ }
+
+.rows:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+  background-image: url(../images/sunset.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: fit-content;
+
+}
+
+h2 {
+  color: white;
+}
+
+img {
+width: 100%;
+height: 50%;
+border-radius: 20px;
+}
+
+
+.title-text {
+  font-size: 40px;
+  font-family: sans-serif;
+  padding-bottom: 14px;
+  padding-top: 14px;
+  padding-left: 10px;
+  color: #D2691E;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.about-me {
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+
+.my-work {
+  padding-left: 10px;
+  padding-right: 10px;
+ 
+}
+
 .here-link {
   text-decoration: underline;
   color: red;
@@ -5,9 +66,15 @@
 
 .contact-button {
   background-color: orchid;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: center;
   cursor: pointer;
   border-color: orchid;
+  color: aliceblue;
+  border-radius: 5px;
+}
+
+.contact-me {
+  color: white;
 }
